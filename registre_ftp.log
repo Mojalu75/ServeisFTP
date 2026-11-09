@@ -1,0 +1,22 @@
+nov 09, 2026 10:42:01 A. M. Metodos crearFitxerLogs
+INFO: logs correcte.
+nov 09, 2026 10:52:46 A. M. Metodos crearFitxerLogs
+INFO: logs correcte.
+nov 09, 2026 10:52:47 A. M. Metodos registrarExcepcio
+SEVERE: Error en llegir el fitxer /htdocs/fitxer_inventat_que_no_existeix.txt
+java.io.FileNotFoundException: El fitxer 'fitxer.txt' no existeix.
+	at Metodos.llegirFixer(Metodos.java:52)
+	at Main.main(Main.java:21)
+
+nov 09, 2026 10:52:47 A. M. Metodos registrarExcepcio
+SEVERE: Error en pujar el fitxer local C:\ruta_falsa\a.txt
+java.io.FileNotFoundException: C:\ruta_falsa\a.txt (El sistema no puede encontrar la ruta especificada)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:185)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:139)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:109)
+	at Metodos.afegirFitxer(Metodos.java:73)
+	at Main.main(Main.java:24)
+
+nov 09, 2026 10:56:23 A. M. Metodos crearFitxerLogs
+INFO: logs correcte.
